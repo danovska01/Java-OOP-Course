@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction;
+package _01_WorkingWithAbstraction.PointInRectangle;
 
 public class Point {
     private int coordinatesX;
