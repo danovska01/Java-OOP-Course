@@ -13,8 +13,6 @@ public class _01_RhombusOfStars {
            printBottom(n);
 
 
-
-
     }
 
     private static void printBottom(int count) {
@@ -25,25 +23,15 @@ public class _01_RhombusOfStars {
         }
     }
 
-    public static void printTop (int rowsCount){
-        for (int i = 1; i <=rowsCount ; i++) {
-        printString(rowsCount-i, " ");
+    public static void printTop (int count){
+        for (int i = 1; i <=count ; i++) {
+        printString(count-i, " ");
         printString(i, "* ");
             System.out.println();
         }
     }
 
-    /*private static void printStars(int stars) {
-        for (int i = 0; i < stars; i++) {
-            System.out.print("* ");
-        }
-    }
 
-    private static void printPaddingSpaces(int count) {
-        for (int j = 0; j < count; j++) {
-            System.out.print(" ");
-        }
-    }*/
     private static void printString (int count, String str){
         for (int j = 0; j < count; j++) {
             System.out.print(str);
