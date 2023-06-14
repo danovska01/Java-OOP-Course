@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.studentSystem;
+package _01_Abstraction.studentSystem;
 
 public class Student {
     private String name;

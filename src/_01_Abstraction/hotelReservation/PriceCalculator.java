@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.hotelReservation;
+package _01_Abstraction.hotelReservation;
 
 public class PriceCalculator {
 

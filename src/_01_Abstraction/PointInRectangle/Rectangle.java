@@ -1,4 +1,4 @@
-package _01_WorkingWithAbstraction.PointInRectangle;
+package _01_Abstraction.PointInRectangle;
 
 public class Rectangle {
     // // Rectangle should hold 2 Points – its bottom left and top right corners.
