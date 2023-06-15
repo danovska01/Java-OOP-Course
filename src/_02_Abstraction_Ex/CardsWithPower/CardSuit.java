@@ -1,4 +1,4 @@
-package CardsWithPower;
+package _02_Abstraction_Ex.CardsWithPower;
 
 public enum CardSuit {
 

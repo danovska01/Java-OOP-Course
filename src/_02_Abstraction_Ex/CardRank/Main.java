@@ -1,4 +1,4 @@
-package CardRank;
+package _02_Abstraction_Ex.CardRank;
 
 public class Main {
     public static void main(String[] args) {
