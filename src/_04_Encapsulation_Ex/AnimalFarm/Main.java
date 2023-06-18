@@ -1,4 +1,4 @@
-package AnimalFarm;
+package _04_Encapsulation_Ex.AnimalFarm;
 
 import java.util.Scanner;
 
