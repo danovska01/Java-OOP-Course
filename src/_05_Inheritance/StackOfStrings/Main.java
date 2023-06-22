@@ -1,4 +1,4 @@
-package _05_Inheritance.StachOfStrings;
+package _05_Inheritance.StackOfStrings;
 
 public class Main {
     public static void main(String[] args) {
