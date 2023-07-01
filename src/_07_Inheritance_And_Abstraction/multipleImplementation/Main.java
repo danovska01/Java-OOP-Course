@@ -1,4 +1,4 @@
-package multipleImplementation;
+package _07_Inheritance_And_Abstraction.multipleImplementation;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

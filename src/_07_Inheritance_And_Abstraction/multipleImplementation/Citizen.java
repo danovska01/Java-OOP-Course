@@ -1,4 +1,4 @@
-package multipleImplementation;
+package _07_Inheritance_And_Abstraction.multipleImplementation;
 
 public class Citizen implements Person, Identifiable, Birthable{
 
@@ -9,7 +9,7 @@ public class Citizen implements Person, Identifiable, Birthable{
 
     private String birthDate;
 
-    public Citizen(String name, int age, String id, String birthDate) {
+     Citizen(String name, int age, String id, String birthDate) {
         this.name = name;
         this.age = age;
         this.id=id;

@@ -1,4 +1,4 @@
-package defineAnInterfacePerson;
+package _07_Inheritance_And_Abstraction.defineAnInterfacePerson;
 
 public class Citizen implements Person{
 

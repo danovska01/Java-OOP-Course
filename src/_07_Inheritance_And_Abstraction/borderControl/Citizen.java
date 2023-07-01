@@ -11,6 +11,9 @@ public class Citizen implements Identifiable{
         this.id = id;
     }
 
+    public Citizen(String token, int age, String token1, String token2) {
+    }
+
     public String getName() {
         return this.name;
     }
