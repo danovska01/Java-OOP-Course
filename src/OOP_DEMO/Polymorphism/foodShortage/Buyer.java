@@ -1,4 +1,4 @@
-package DEMO_OOP.foodShortage;
+package OOP_DEMO.Polymorphism.foodShortage;
 
 public interface Buyer {
     void buyFood();

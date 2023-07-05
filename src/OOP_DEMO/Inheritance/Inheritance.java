@@ -1,4 +1,4 @@
-package DEMO_OOP;
+package OOP_DEMO.Inheritance;
 
     // parent class
     class Employee {

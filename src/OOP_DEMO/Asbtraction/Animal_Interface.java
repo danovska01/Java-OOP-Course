@@ -1,4 +1,4 @@
-package DEMO_OOP;
+package OOP_DEMO.Asbtraction;
 //Why use Interfaces?
 //    To specify the behavior of a particular data
 //    To achieve multiple inheritance.

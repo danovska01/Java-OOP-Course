@@ -1,4 +1,4 @@
-package DEMO_OOP;
+package OOP_DEMO.Asbtraction;
 //Why use Abstract classes?
 //To have some methods to implement later. If you don't use an abstract class,
 // you have to implement the AnimalSound() method in the Animal class even if you inherit it from another class.

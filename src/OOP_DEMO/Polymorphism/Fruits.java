@@ -1,4 +1,4 @@
-package DEMO_OOP;
+package OOP_DEMO.Polymorphism;
 //What is Run-time polymorphism?
 //When method overriding and upcasting is used, which class's method to call is resolved during the run-time.
 

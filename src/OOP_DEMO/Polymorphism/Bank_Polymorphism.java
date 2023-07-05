@@ -1,4 +1,4 @@
-package DEMO_OOP;
+package OOP_DEMO.Polymorphism;
 
 public class Bank_Polymorphism {
     //Since in AwesomeBank class the getInterestRate() method is not overridden,
