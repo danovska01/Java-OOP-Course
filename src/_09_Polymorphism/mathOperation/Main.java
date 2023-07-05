@@ -1,4 +1,4 @@
-package _09_Polymorphism.MathOperation;
+package _09_Polymorphism.mathOperation;
 
 public class Main {
     public static void main(String[] args) {

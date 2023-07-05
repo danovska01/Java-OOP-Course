@@ -1,4 +1,4 @@
-package _09_Polymorphism.Animals;
+package _09_Polymorphism.animals;
 
 public class Dog extends Animal{
     public Dog(String name, String favouriteFood) {

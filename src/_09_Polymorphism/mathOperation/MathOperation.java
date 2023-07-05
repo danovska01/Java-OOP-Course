@@ -1,4 +1,4 @@
-package _09_Polymorphism.MathOperation;
+package _09_Polymorphism.mathOperation;
 
 public class MathOperation {
     public int add(int x1, int x2){

@@ -1,4 +1,4 @@
-package _09_Polymorphism.Shapes;
+package _09_Polymorphism.shapes;
 
 public abstract class Shape {
     private Double perimeter;
