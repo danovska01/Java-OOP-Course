@@ -6,3 +6,4 @@ public class Book {
 
     //Make sure to replace "Science" and "Technology" with the appropriate categories for your use case.
 }
+
