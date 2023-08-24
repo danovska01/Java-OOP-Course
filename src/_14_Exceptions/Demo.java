@@ -6,11 +6,10 @@ public class Demo {
 	public static void main(String[] args) {
 		try {
 			char x = readAChar();
+			System.out.println(x);
 		} catch (SecurityException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -1,18 +1,19 @@
 package _14_Exceptions;
 
-import exceptions.PersonException;
+
+import _14_Exceptions.exceptions.PersonException;
 
 public class Person {
 	private final String egn;
 	private String name;
 	private int age;
-	private Ryka ryka;
+	private Hand hand;
 
 	public Person(String egn, String name, int age) throws PersonException {
 		this.egn = egn;
 		setName(name);
 		setAge(age);
-		this.ryka = new Ryka();
+		this.hand = new Hand();
 	}
 
 	public String getName() {
@@ -23,23 +24,24 @@ public class Person {
 		if ((name != null) && (name.trim().length() > 0))
 			this.name = name;
 		else {
-			throw new PersonException("Kvo e tui prazno ime, ve manaf ?!");
+			throw new PersonException("Name is empty!");
 		}
 	}
 
-	public void napiiSaIBuistvai() throws PersonException {
-		System.out.println("Napivam se i buistvam");
-		System.out.println("Sega shte vi naplqskam vsichkite");
+	public void write() throws PersonException {
+
+//		System.out.println("We will get inside the block of Person Exception! just now");
 		try {
-			this.ryka.udrqiShamari();
-		} catch (SchupiMiSeNokytchetoException e) {
+			System.out.println("In the try block: ...");
+			this.hand.write();
+		} catch (handBecomesTired e) {
 			// rethrow
-			throw new PersonException("Sistemata vremenno ne raboti, molq opitaite po-kysno", e);
-		} catch (SchupiMiSeKitkataException e) {
+			throw new PersonException("Rethrow exception! ", e);
+		} catch (HandBroken e) {
 			// rethrow
-			throw new PersonException("Sistemata vremenno ne raboti, molq opitaite po-kysno", e);
+			throw new PersonException("Throw New exception. ", e);
 		}
-		System.out.println("Mamito vi");
+//		System.out.println("Out of the block of Person Exception");
 	}
 
 	public int getAge() {
@@ -50,7 +52,7 @@ public class Person {
 		if (age > 0)
 			this.age = age;
 		else {
-			throw new PersonException("Kvo sa tiq godini, ve manaf ?!");
+			throw new PersonException("Age is not valid!");
 		}
 	}
 

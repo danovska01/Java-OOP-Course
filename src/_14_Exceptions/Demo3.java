@@ -11,9 +11,9 @@ import javax.naming.MalformedLinkException;
 
 public class Demo3 {
 	
-	static void test() throws IOException, JarException, NonWritableChannelException, KeyAlreadyExistsException, KeyException, MalformedLinkException, BootstrapMethodError, CloneNotSupportedException, SchupiMiSeKitkataException {
-		System.out.println("A  ti bi li izvikal toq method?");
-		throw new SchupiMiSeKitkataException("Udarih go nakrivo");
+	static void test() throws IOException, JarException, NonWritableChannelException, KeyAlreadyExistsException, KeyException, MalformedLinkException, BootstrapMethodError, CloneNotSupportedException, HandBroken {
+		System.out.println("inside test method ...");
+		throw new HandBroken("I hurt my hand...");
 	}
 	
 	public static void main(String[] args) {
@@ -31,6 +31,6 @@ public class Demo3 {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Vsickho e tochno!");
+		System.out.println("Everything is perfect!");
 	}
 }

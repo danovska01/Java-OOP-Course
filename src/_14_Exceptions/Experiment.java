@@ -1,44 +1,42 @@
 package _14_Exceptions;
 
-import java.io.IOException;
-
 public class Experiment {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Shte si porycham bomba");
-		napraviMiBomba();
-		System.out.println("Napravih mi bomba, ura!");
+		System.out.println("I will order cocktail!");
+		makeMeCocktail();
+		System.out.println("A cocktail was made for me!");
 	}
 
-	private static void napraviMiBomba() {
-		System.out.println("Ei sega shte ti napravq 1 golqma bomba");
+	private static void makeMeCocktail() {
+		System.out.println("A cocktail is started.");
 		try {
-			shteSeOpitamDaNapravqBomba();
+			tryMakeCocktail();
 //			System.exit(0);
 		}
 		catch(SecurityException | NullPointerException | ArithmeticException e) { // Java 7+
-			System.out.println("Batko probvah da ti q napravq ama ne stana");
+			System.out.println("Sorry, I tried making a cocktail, it did not work!");
 			return;
 		}
 		finally {
-			System.out.println("Vsichko svyrshi!");
+			System.out.println("In the finally block");
 		}
 		
 		
-//		System.out.println("Napravih ti q, chestito!");
+//		System.out.println("Here is the cocktail");
 	}
 
-	private static void shteSeOpitamDaNapravqBomba() {
+	private static void tryMakeCocktail() {
 		
-		System.out.println("Pochvam da q pravq!");
+		System.out.println("Start the cocktail!");
 //		String k = null;
 //		System.out.println(k.length());
 //		int x = 8;
 //		
 //		x = x / 0;
 //		
-		System.out.println("Gotova e rabotata!");
+		System.out.println("Done!");
 		
 	}
 }

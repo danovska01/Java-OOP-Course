@@ -2,10 +2,13 @@ package _15_DesignPatterns.facade;
 
 public interface IOfis {
 
-	void daiMiFaktura();
+	void giveMeInvoice();
 
-	void schupiMiSeWindowsa();
+	void haveProblemWithWindows();
+	void haveProblemWithLinux();
 
-	void iskamDaSeOplacha();
+	void wantToComplain();
+
+	void cleanReception();
 
 }

@@ -2,7 +2,11 @@ package _15_DesignPatterns.facade;
 
 class ITGuy {
 
-	public void preinstalirajMiWindowsa() {
-		System.out.println("Bah tiq Microsoft, vse s tehnite bakii trqbva da sa opravqm");
+	public void preinstallMiWindows() {
+		System.out.println("Technician: I will preinstall your Windows.");
+	}
+
+	public void preinstallLinux (){
+		System.out.println("Technician: I will preinstall your Linux.");
 	}
 }

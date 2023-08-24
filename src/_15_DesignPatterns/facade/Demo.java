@@ -2,15 +2,21 @@ package _15_DesignPatterns.facade;
 
 public class Demo {
 	public static void main(String[] args) {
-		IOfis repeciq = new Recepciq();
+		IOfis reception = new Reception();
 		
-		repeciq.daiMiFaktura();
+		reception.giveMeInvoice();
 		System.out.println();
 		
-		repeciq.iskamDaSeOplacha();
-		
+		reception.wantToComplain();
 		System.out.println();
 		
-		repeciq.schupiMiSeWindowsa();
+		reception.haveProblemWithWindows();
+		System.out.println();
+
+		reception.haveProblemWithLinux();
+		System.out.println();
+
+		reception.cleanReception();
+		System.out.println();
 	}
 }
